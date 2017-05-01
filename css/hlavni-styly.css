@@ -1,0 +1,139 @@
+
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body{
+    color: black;
+    font-family: 'Architects Daughter', cursive !important;
+    background-image: url(../img/wooden_pergament.jpg);
+    height: 100%;  
+}
+
+#loader{
+     z-index:999999;
+     display:block;
+     position:fixed;
+     top:0;
+     left:0;
+     width:100%;
+     height:100%;
+     background:url(../img/loader-logo.gif) 50% 50% no-repeat blueviolet;
+}
+
+.obsah{
+    box-sizing: content-box;
+    position: relative;
+    top: 0.25em;
+    z-index: 200;
+    border-image-width: 5em;
+    border: 15px solid transparent;
+    padding: 4em;
+    background-color: purple;
+    -webkit-border-image: url(../img/ramec.png) 30 30 stretch; /* Safari 3.1-5 */
+    -o-border-image: url(../img/ramec.png) 30 30 stretch; /* Opera 11-12.1 */
+    border-image: url(../img/ramec.png) 30 30 stretch;
+    width: 45em;
+    height: 23.5em;
+    background-origin: border-box;
+    color: Azure;
+}
+
+.wrapper{
+    margin: auto;
+
+}
+
+.druhy-wrapper{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+legend{
+   font-weight: 800;
+   margin-top: 0.5em;
+   font-size: 3.25em;
+   font-family: 'Lora', serif;
+   text-decoration: underline overline;
+   text-align: center;
+   color: black;
+   border-bottom: medium double black; 
+}
+
+.btn-danger{
+    border-color: purple  !important;
+    background-color: mediumpurple  !important;
+    width: 22em;
+    font-size: 100%;
+}
+
+.btn-danger:hover{
+    border-color: purple  !important;
+   background-color: rebeccapurple  !important;
+}
+
+
+input[type=text]:focus {
+    background-color: purple  !important;
+    color: white;
+    border:  darkviolet !important;
+}
+
+.form-group{
+  margin-top: 2em;
+}
+
+.form-group:nth-child(2){
+  margin-top: 0em;
+}
+
+.form-control{
+  font-size: 1.5em;
+  font-weight: 700;
+  width: 15em;
+}
+
+select{
+   width: 22em;
+   height: 5vh;
+   color: black;
+}
+
+label{
+   font-size: 1.25em;
+   text-align: center;
+}
+
+.nadpis-jmeno{
+  font-size: 2.5em;
+  text-decoration: underline;
+  margin-top: -1em;
+  margin-bottom: 0em;
+  color: #c0c0c0; /* silver */
+  text-shadow: 5px 5px 5px rgb(0,0,0); /* text-shadow s černým stínem */
+}
+
+p{
+    padding: 1em 1em;
+    text-align: left;
+    font-size: 1em;
+}
+
+.paticka{
+    margin-top: 0em;
+    position: absolute;
+    top: 95%;
+    margin-bottom: 0px;
+    width: 100%;
+    opacity: 0.6;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: Purple;
+    height: 2.5em;
+    color: Azure;
+}
+
+#reload{
+    margin-top: 0px;
+}
